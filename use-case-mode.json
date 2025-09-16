@@ -1,0 +1,398 @@
+{
+  "useCaseModeConfiguration": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-12T00:00:00Z",
+    "modes": {
+      "educational": {
+        "id": "educational",
+        "displayName": "Educational",
+        "description": "Learning-focused features, Q&A tools, knowledge sharing capabilities",
+        "icon": "graduationcap.fill",
+        "color": {
+          "red": 0.0,
+          "green": 0.5,
+          "blue": 1.0,
+          "alpha": 1.0
+        },
+        "emoji": "📚",
+        "features": [
+          "Study tools and flashcards",
+          "Knowledge base integration",
+          "Learning progress tracking",
+          "Q&A assistance",
+          "Educational content recommendations"
+        ],
+        "prompts": [
+          "Explain this concept in simple terms",
+          "Create a study guide for...",
+          "What are the key points about...",
+          "Help me understand...",
+          "Generate practice questions for..."
+        ],
+        "uiAdaptations": [
+          "Educational color scheme",
+          "Study-focused layout",
+          "Progress indicators",
+          "Knowledge base shortcuts"
+        ],
+        "capabilities": {
+          "textToSpeech": true,
+          "voiceRecognition": true,
+          "drawingCanvas": false,
+          "fileSharing": true,
+          "calendarIntegration": true,
+          "notesIntegration": true,
+          "remindersIntegration": true,
+          "contactsIntegration": false,
+          "musicIntegration": false,
+          "booksIntegration": true
+        }
+      },
+      "creative": {
+        "id": "creative",
+        "displayName": "Creative",
+        "description": "Drawing tools, brainstorming features, collaboration tools",
+        "icon": "paintbrush.fill",
+        "color": {
+          "red": 0.5,
+          "green": 0.0,
+          "blue": 1.0,
+          "alpha": 1.0
+        },
+        "emoji": "💡",
+        "features": [
+          "Drawing canvas integration",
+          "Idea boards and brainstorming",
+          "Creative collaboration tools",
+          "Inspiration galleries",
+          "Creative writing prompts"
+        ],
+        "prompts": [
+          "Help me brainstorm ideas for...",
+          "Create a creative writing prompt about...",
+          "Suggest creative solutions for...",
+          "Generate ideas for...",
+          "Help me think outside the box for..."
+        ],
+        "uiAdaptations": [
+          "Creative color palette",
+          "Canvas integration",
+          "Idea board layout",
+          "Inspiration galleries"
+        ],
+        "capabilities": {
+          "textToSpeech": true,
+          "voiceRecognition": true,
+          "drawingCanvas": true,
+          "fileSharing": true,
+          "calendarIntegration": false,
+          "notesIntegration": true,
+          "remindersIntegration": false,
+          "contactsIntegration": false,
+          "musicIntegration": true,
+          "booksIntegration": false
+        }
+      },
+      "wellness": {
+        "id": "wellness",
+        "displayName": "Wellness",
+        "description": "Meditation guidance, health tracking, supportive interactions",
+        "icon": "heart.fill",
+        "color": {
+          "red": 0.0,
+          "green": 0.8,
+          "blue": 0.0,
+          "alpha": 1.0
+        },
+        "emoji": "❤️",
+        "features": [
+          "Mood tracking and journaling",
+          "Meditation and mindfulness guidance",
+          "Health and wellness tips",
+          "Stress management tools",
+          "Wellness goal tracking"
+        ],
+        "prompts": [
+          "Guide me through a meditation",
+          "Help me track my mood today",
+          "Suggest wellness activities for...",
+          "Create a wellness plan for...",
+          "Help me manage stress about..."
+        ],
+        "uiAdaptations": [
+          "Calming color scheme",
+          "Wellness-focused layout",
+          "Mood tracking interface",
+          "Meditation guidance UI"
+        ],
+        "capabilities": {
+          "textToSpeech": true,
+          "voiceRecognition": true,
+          "drawingCanvas": false,
+          "fileSharing": false,
+          "calendarIntegration": true,
+          "notesIntegration": true,
+          "remindersIntegration": true,
+          "contactsIntegration": false,
+          "musicIntegration": true,
+          "booksIntegration": false
+        }
+      },
+      "business": {
+        "id": "business",
+        "displayName": "Business",
+        "description": "Professional features, meeting tools, client communication",
+        "icon": "briefcase.fill",
+        "color": {
+          "red": 1.0,
+          "green": 0.5,
+          "blue": 0.0,
+          "alpha": 1.0
+        },
+        "emoji": "💼",
+        "features": [
+          "Meeting scheduling and management",
+          "Professional templates",
+          "Client communication tools",
+          "Business analytics",
+          "Professional networking features"
+        ],
+        "prompts": [
+          "Schedule a meeting for...",
+          "Create a professional email about...",
+          "Generate a business proposal for...",
+          "Help me prepare for a presentation on...",
+          "Draft a professional response to..."
+        ],
+        "uiAdaptations": [
+          "Professional color scheme",
+          "Business-focused layout",
+          "Meeting management interface",
+          "Professional templates"
+        ],
+        "capabilities": {
+          "textToSpeech": true,
+          "voiceRecognition": true,
+          "drawingCanvas": false,
+          "fileSharing": true,
+          "calendarIntegration": true,
+          "notesIntegration": true,
+          "remindersIntegration": true,
+          "contactsIntegration": true,
+          "musicIntegration": false,
+          "booksIntegration": false
+        }
+      },
+      "social": {
+        "id": "social",
+        "displayName": "Social",
+        "description": "Entertainment features, games, casual interactions",
+        "icon": "person.2.fill",
+        "color": {
+          "red": 1.0,
+          "green": 0.4,
+          "blue": 0.8,
+          "alpha": 1.0
+        },
+        "emoji": "👥",
+        "features": [
+          "Games and entertainment",
+          "Social interaction tools",
+          "Casual conversation features",
+          "Entertainment recommendations",
+          "Social media integration"
+        ],
+        "prompts": [
+          "Tell me a joke",
+          "Play a game with me",
+          "Recommend something fun to do",
+          "Help me plan a social event",
+          "Suggest conversation starters for..."
+        ],
+        "uiAdaptations": [
+          "Social color palette",
+          "Entertainment-focused layout",
+          "Game interface",
+          "Social interaction tools"
+        ],
+        "capabilities": {
+          "textToSpeech": true,
+          "voiceRecognition": true,
+          "drawingCanvas": true,
+          "fileSharing": true,
+          "calendarIntegration": true,
+          "notesIntegration": false,
+          "remindersIntegration": false,
+          "contactsIntegration": true,
+          "musicIntegration": true,
+          "booksIntegration": false
+        }
+      }
+    },
+    "promptCategories": {
+      "quickStart": {
+        "id": "quick_start",
+        "displayName": "Quick Start",
+        "description": "One-tap suggestions for immediate engagement",
+        "icon": "bolt.fill"
+      },
+      "deepDive": {
+        "id": "deep_dive",
+        "displayName": "Deep Dive",
+        "description": "Complex, multi-step prompts for thorough exploration",
+        "icon": "magnifyingglass.circle.fill"
+      },
+      "followUp": {
+        "id": "follow_up",
+        "displayName": "Follow-up",
+        "description": "Contextual suggestions based on previous messages",
+        "icon": "arrow.clockwise.circle.fill"
+      },
+      "discovery": {
+        "id": "discovery",
+        "displayName": "Discovery",
+        "description": "Exploratory prompts to uncover new topics",
+        "icon": "sparkles"
+      }
+    },
+    "contextFactors": {
+      "timeOfDay": {
+        "morning": {
+          "id": "morning",
+          "displayName": "Morning"
+        },
+        "afternoon": {
+          "id": "afternoon",
+          "displayName": "Afternoon"
+        },
+        "evening": {
+          "id": "evening",
+          "displayName": "Evening"
+        },
+        "weekend": {
+          "id": "weekend",
+          "displayName": "Weekend"
+        }
+      },
+      "conversationStage": {
+        "new": {
+          "id": "new",
+          "displayName": "New Conversation"
+        },
+        "ongoing": {
+          "id": "ongoing",
+          "displayName": "Ongoing Discussion"
+        },
+        "transition": {
+          "id": "transition",
+          "displayName": "Topic Transition"
+        },
+        "conclusion": {
+          "id": "conclusion",
+          "displayName": "Conclusion"
+        }
+      },
+      "userEngagement": {
+        "low": {
+          "id": "low",
+          "displayName": "Low Engagement"
+        },
+        "medium": {
+          "id": "medium",
+          "displayName": "Medium Engagement"
+        },
+        "high": {
+          "id": "high",
+          "displayName": "High Engagement"
+        }
+      },
+      "seasonalContext": {
+        "general": {
+          "id": "general",
+          "displayName": "General"
+        },
+        "holiday": {
+          "id": "holiday",
+          "displayName": "Holiday"
+        },
+        "seasonal": {
+          "id": "seasonal",
+          "displayName": "Seasonal"
+        }
+      }
+    },
+    "defaultSettings": {
+      "defaultMode": "educational",
+      "transitionDuration": 0.3,
+      "persistenceKey": "SelectedUseCaseMode",
+      "enableAnimations": true,
+      "enableCrossDeviceSync": true
+    },
+    "promptTemplates": {
+      "educational": [
+        {
+          "id": "study_guide_template",
+          "name": "Study Guide Generator",
+          "template": "Create a comprehensive study guide for {topic} covering the key concepts, important details, and practice questions.",
+          "placeholders": ["topic"],
+          "category": "deepDive",
+          "priority": 8,
+          "tags": ["study", "education", "learning"]
+        },
+        {
+          "id": "concept_explanation_template",
+          "name": "Concept Explanation",
+          "template": "Explain {concept} in simple terms with examples and analogies that make it easy to understand.",
+          "placeholders": ["concept"],
+          "category": "quickStart",
+          "priority": 7,
+          "tags": ["explanation", "learning", "simplification"]
+        }
+      ],
+      "creative": [
+        {
+          "id": "brainstorm_template",
+          "name": "Brainstorming Session",
+          "template": "Help me brainstorm creative ideas for {project}. Think outside the box and suggest innovative approaches.",
+          "placeholders": ["project"],
+          "category": "discovery",
+          "priority": 9,
+          "tags": ["brainstorming", "creativity", "innovation"]
+        }
+      ],
+      "wellness": [
+        {
+          "id": "meditation_guide_template",
+          "name": "Meditation Guide",
+          "template": "Guide me through a {duration}-minute meditation session focused on {focus_area}.",
+          "placeholders": ["duration", "focus_area"],
+          "category": "quickStart",
+          "priority": 8,
+          "tags": ["meditation", "mindfulness", "wellness"]
+        }
+      ],
+      "business": [
+        {
+          "id": "meeting_agenda_template",
+          "name": "Meeting Agenda",
+          "template": "Create a professional meeting agenda for {meeting_type} with {participants} focusing on {main_topic}.",
+          "placeholders": ["meeting_type", "participants", "main_topic"],
+          "category": "deepDive",
+          "priority": 7,
+          "tags": ["meeting", "business", "professional"]
+        }
+      ],
+      "social": [
+        {
+          "id": "conversation_starter_template",
+          "name": "Conversation Starter",
+          "template": "Suggest fun conversation starters for {social_context} that will help break the ice and create engaging discussions.",
+          "placeholders": ["social_context"],
+          "category": "quickStart",
+          "priority": 6,
+          "tags": ["social", "conversation", "entertainment"]
+        }
+      ]
+    }
+  }
+}
