@@ -14,6 +14,7 @@
           "blue": 1.0,
           "alpha": 1.0
         },
+        "model": "llama3.2:latest",
         "emoji": "📚",
         "features": [
           "Study tools and flashcards",
@@ -60,6 +61,7 @@
           "alpha": 1.0
         },
         "emoji": "💡",
+        "model": "llava:7b",
         "features": [
           "Drawing canvas integration",
           "Idea boards and brainstorming",
@@ -105,6 +107,7 @@
           "alpha": 1.0
         },
         "emoji": "❤️",
+        "model": "monotykamary/medichat-llama3:latest",
         "features": [
           "Mood tracking and journaling",
           "Meditation and mindfulness guidance",
@@ -150,6 +153,7 @@
           "alpha": 1.0
         },
         "emoji": "💼",
+        "model": "nemotron:latest",
         "features": [
           "Meeting scheduling and management",
           "Professional templates",
@@ -195,6 +199,7 @@
           "alpha": 1.0
         },
         "emoji": "👥",
+        "model": "socialnetwooky/llama3.2-abliterated:1b_q8",
         "features": [
           "Games and entertainment",
           "Social interaction tools",
