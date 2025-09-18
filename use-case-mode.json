@@ -107,7 +107,7 @@
           "alpha": 1.0
         },
         "emoji": "❤️",
-        "model": "monotykamary/medichat-llama3:latest",
+        "model": "llama3.2:latest",
         "features": [
           "Mood tracking and journaling",
           "Meditation and mindfulness guidance",
@@ -153,7 +153,7 @@
           "alpha": 1.0
         },
         "emoji": "💼",
-        "model": "nemotron:latest",
+        "model": "llama3.2:latest",
         "features": [
           "Meeting scheduling and management",
           "Professional templates",
@@ -199,7 +199,7 @@
           "alpha": 1.0
         },
         "emoji": "👥",
-        "model": "socialnetwooky/llama3.2-abliterated:1b_q8",
+        "model": "llama3.2:latest",
         "features": [
           "Games and entertainment",
           "Social interaction tools",
